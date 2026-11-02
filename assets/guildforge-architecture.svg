@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="pipeBg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#090A10" />
+      <stop offset="100%" stop-color="#0D0F18" />
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7547FF" />
+      <stop offset="50%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="320" rx="16" fill="url(#pipeBg)" stroke="#23263A" stroke-width="1.5" />
+  <text x="40" y="42" fill="#FFFFFF" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="800" letter-spacing="0.5">GUILDFORGE 5-STAGE ARCHITECTURE SYNTHESIS &amp; LIVE DEPLOYMENT PIPELINE</text>
+
+  <line x1="140" y1="165" x2="1060" y2="165" stroke="url(#lineGrad)" stroke-width="3" stroke-dasharray="6 6" />
+
+  <g transform="translate(36, 76)">
+    <rect x="0" y="0" width="208" height="196" rx="12" fill="#121420" stroke="#7547FF" stroke-width="1.5" />
+    <rect x="16" y="16" width="64" height="22" rx="6" fill="#2E1065" />
+    <text x="48" y="31" text-anchor="middle" fill="#C4B5FD" font-family="monospace" font-size="11" font-weight="700">STAGE 01</text>
+    <text x="16" y="62" fill="#FFFFFF" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700">Requirement Analysis</text>
+    <text x="16" y="88" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="11">• Community Scale &amp; Type</text>
+    <text x="16" y="108" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="11">• Department Extraction</text>
+    <text x="16" y="128" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="11">• Public vs Private Zones</text>
+    <text x="16" y="148" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="11">• Bot Module Mapping</text>
+    <text x="16" y="174" fill="#906BFF" font-family="monospace" font-size="10" font-weight="700">Schema Validated JSON</text>
+  </g>
+
+  <g transform="translate(266, 76)">
+    <rect x="0" y="0" width="208" height="196" rx="12" fill="#121420" stroke="#6366F1" stroke-width="1.5" />
+    <rect x="16" y="16" width="64" height="22" rx="6" fill="#1E1B4B" />
+    <text x="48" y="31" text-anchor="middle" fill="#A5B4FC" font-family="monospace" font-size="11" font-weight="700">STAGE 02</text>
+    <text x="16" y="62" fill="#FFFFFF" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700">Topology Synthesis</text>
+    <text x="16" y="88" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="11">• 14-20 Ordered Roles</text>
+    <text x="16" y="108" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="11">• 8-13 Department Cats</text>
+    <text x="16" y="128" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="11">• 30-50 Multi-Type Chans</text>
+    <text x="16" y="148" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="11">• Forum, Voice &amp; Stage</text>
+    <text x="16" y="174" fill="#818CF8" font-family="monospace" font-size="10" font-weight="700">Full Operational Tree</text>
+  </g>
+
+  <g transform="translate(496, 76)">
+    <rect x="0" y="0" width="208" height="196" rx="12" fill="#121420" stroke="#0EA5E9" stroke-width="1.5" />
+    <rect x="16" y="16" width="64" height="22" rx="6" fill="#0C4A6E" />
+    <text x="48" y="31" text-anchor="middle" fill="#7DD3FC" font-family="monospace" font-size="11" font-weight="700">STAGE 03</text>
+    <text x="16" y="62" fill="#FFFFFF" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700">Zero-Trust Bitfields</text>
+    <text x="16" y="88" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="11">• Single Admin Ceiling</text>
+    <text x="16" y="108" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="11">• @everyone Deny Gates</text>
+    <text x="16" y="128" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="11">• Read-Only Gateways</text>
+    <text x="16" y="148" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="11">• Role × Channel Matrix</text>
+    <text x="16" y="174" fill="#38BDF8" font-family="monospace" font-size="10" font-weight="700">64-Bit BigInt Flags</text>
+  </g>
+
+  <g transform="translate(726, 76)">
+    <rect x="0" y="0" width="208" height="196" rx="12" fill="#121420" stroke="#14B8A6" stroke-width="1.5" />
+    <rect x="16" y="16" width="64" height="22" rx="6" fill="#134E4A" />
+    <text x="48" y="31" text-anchor="middle" fill="#5EEAD4" font-family="monospace" font-size="11" font-weight="700">STAGE 04</text>
+    <text x="16" y="62" fill="#FFFFFF" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700">12-Point Audit &amp; Fix</text>
+    <text x="16" y="88" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="11">• Privilege Escalation Scan</text>
+    <text x="16" y="108" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="11">• Private Leak Detection</text>
+    <text x="16" y="128" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="11">• Completeness Evaluator</text>
+    <text x="16" y="148" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="11">• 1-Click Auto-Remediation</text>
+    <text x="16" y="174" fill="#2DD4BF" font-family="monospace" font-size="10" font-weight="700">Deterministic Guard</text>
+  </g>
+
+  <g transform="translate(956, 76)">
+    <rect x="0" y="0" width="208" height="196" rx="12" fill="#121420" stroke="#10B981" stroke-width="1.5" />
+    <rect x="16" y="16" width="64" height="22" rx="6" fill="#064E3B" />
+    <text x="48" y="31" text-anchor="middle" fill="#6EE7B7" font-family="monospace" font-size="11" font-weight="700">STAGE 05</text>
+    <text x="16" y="62" fill="#FFFFFF" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700">Live Discord Deploy</text>
+    <text x="16" y="88" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="11">• Pre-Flight Bot Readiness</text>
+    <text x="16" y="108" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="11">• Idempotent Role/Chan Sync</text>
+    <text x="16" y="128" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="11">• HTTP 429 Bucket Backoff</text>
+    <text x="16" y="148" fill="#94A3B8" font-family="system-ui, -apple-system, sans-serif" font-size="11">• Live SSE Telemetry Stream</text>
+    <text x="16" y="174" fill="#10B981" font-family="monospace" font-size="10" font-weight="700">Discord REST API v10</text>
+  </g>
+</svg>

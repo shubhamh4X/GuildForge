@@ -1,8 +1,10 @@
 <div align="center">
 
-<img src="./public/assets/guildforge-banner.svg" alt="GuildForge — Enterprise Discord Server Architecture & Live Provisioning Engine" width="100%" />
+<img src="./assets/guildforge-banner.png" alt="GuildForge — AI Discord Server Architect" width="100%" />
 
-<br />
+<br /><br />
+
+<img src="./assets/guildforge-logo.jpg" alt="GuildForge" width="88" height="88" style="border-radius: 18px;" />
 
 # GuildForge
 
@@ -27,7 +29,7 @@
 ## Architecture Synthesis & Provisioning Pipeline
 
 <div align="center">
-  <img src="./public/assets/guildforge-architecture.svg" alt="GuildForge 5-Stage Architecture Pipeline" width="100%" />
+  <img src="./assets/guildforge-architecture.svg" alt="GuildForge 5-Stage Architecture Pipeline" width="100%" />
 </div>
 
 1. **Stage 1 — Requirement Analysis & Department Extraction**: Extracts community scale, security posture (`standard`, `high`, `maximum`), operational departments, leadership tiers, public vs. restricted zones, and required automation modules.
@@ -55,44 +57,49 @@
 ## Project Structure
 
 ```text
+├── assets/
+│   ├── guildforge-banner.png        # Official GuildForge banner
+│   ├── guildforge-logo.jpg          # Official GuildForge logo
+│   └── guildforge-architecture.svg  # 5-stage pipeline diagram
 ├── public/
 │   └── assets/
-│       ├── guildforge-banner.svg        # Hero showcase banner
-│       └── guildforge-architecture.svg  # 5-stage pipeline diagram
+│       ├── guildforge-banner.png    # Public banner asset
+│       ├── guildforge-logo.jpg      # Public logo asset
+│       └── guildforge-architecture.svg
 ├── src/
 │   ├── components/
 │   │   ├── ui/
-│   │   │   ├── Badge.tsx                # Status badges & surface cards
-│   │   │   └── Button.tsx               # Action buttons with loading states
-│   │   ├── AdminDashboard.tsx           # Real-time platform metrics & audit trail
-│   │   ├── BackupsHub.tsx               # Snapshot manager, JSON import/export & diff viewer
-│   │   ├── BotInviteModal.tsx           # OAuth2 bot invite generator & server creation modal
-│   │   ├── BuilderView.tsx              # 5-stage blueprint synthesis & advanced config studio
-│   │   ├── DeploymentHub.tsx            # 8-stage live Discord REST v10 deployment center
-│   │   ├── Header.tsx                   # Top navigation bar & active server selector
-│   │   ├── LandingPage.tsx              # Product overview & workflow showcase
-│   │   ├── OverviewView.tsx             # Active workspace command center
-│   │   ├── SecurityAuditor.tsx          # 12-dimension security & completeness auditor
-│   │   ├── ServerPreviewEditor.tsx      # Interactive architecture editor & permission matrix
-│   │   ├── SettingsView.tsx             # Bot token verification, guild sync & server wipe
-│   │   └── Sidebar.tsx                  # Collapsible navigation & live bot gateway indicator
+│   │   │   ├── Badge.tsx            # Status badges & surface cards
+│   │   │   └── Button.tsx           # Action buttons with loading states
+│   │   ├── AdminDashboard.tsx       # Real-time platform metrics & audit trail
+│   │   ├── BackupsHub.tsx           # Snapshot manager, JSON import/export & diff viewer
+│   │   ├── BotInviteModal.tsx       # OAuth2 bot invite generator & server creation modal
+│   │   ├── BuilderView.tsx          # 5-stage blueprint synthesis & advanced config studio
+│   │   ├── DeploymentHub.tsx        # 8-stage live Discord REST v10 deployment center
+│   │   ├── Header.tsx               # Top navigation bar & active server selector
+│   │   ├── LandingPage.tsx          # Product overview & workflow showcase
+│   │   ├── OverviewView.tsx         # Active workspace command center
+│   │   ├── SecurityAuditor.tsx      # 12-dimension security & completeness auditor
+│   │   ├── ServerPreviewEditor.tsx  # Interactive architecture editor & permission matrix
+│   │   ├── SettingsView.tsx         # Bot token verification, guild sync & server wipe
+│   │   └── Sidebar.tsx              # Collapsible navigation & live bot gateway indicator
 │   ├── services/
-│   │   ├── ai.ts                        # Structured JSON schema synthesis & optimization
-│   │   ├── apiClient.ts                 # Frontend REST & polling client
-│   │   ├── deploymentEngine.ts          # 8-stage Discord provisioning & server clear engine
-│   │   ├── discordApi.ts                # Discord REST API v10 client with 429 rate-limit backoff
-│   │   ├── discordGateway.ts            # Discord Gateway v10 WebSocket presence manager
-│   │   ├── storage.ts                   # Persistent JSON disk database (data/guildforge-db.json)
-│   │   └── validator.ts                 # 12-point zero-trust validator & auto-remediation engine
+│   │   ├── ai.ts                    # Structured JSON schema synthesis & optimization
+│   │   ├── apiClient.ts             # Frontend REST & polling client
+│   │   ├── deploymentEngine.ts      # 8-stage Discord provisioning & server clear engine
+│   │   ├── discordApi.ts            # Discord REST API v10 client with 429 rate-limit backoff
+│   │   ├── discordGateway.ts        # Discord Gateway v10 WebSocket presence manager
+│   │   ├── storage.ts               # Persistent JSON disk database (data/guildforge-db.json)
+│   │   └── validator.ts             # 12-point zero-trust validator & auto-remediation engine
 │   ├── types/
-│   │   └── discord.ts                   # 64-bit Discord permission flags & blueprint schemas
-│   ├── App.tsx                          # Root application state & view router
-│   ├── index.css                        # Dark obsidian theme tokens & scrollbar styles
-│   └── main.tsx                         # React 19 DOM entry point
-├── server.ts                            # Express API server, SSE stream & Vite middleware
-├── package.json                         # Dependencies & build scripts
-├── tsconfig.json                        # TypeScript compiler configuration
-└── vite.config.ts                       # Vite bundler configuration
+│   │   └── discord.ts               # 64-bit Discord permission flags & blueprint schemas
+│   ├── App.tsx                      # Root application state & view router
+│   ├── index.css                    # Dark obsidian theme tokens & scrollbar styles
+│   └── main.tsx                     # React 19 DOM entry point
+├── server.ts                        # Express API server, SSE stream & Vite middleware
+├── package.json                     # Dependencies & build scripts
+├── tsconfig.json                    # TypeScript compiler configuration
+└── vite.config.ts                   # Vite bundler configuration
 ```
 
 ---
