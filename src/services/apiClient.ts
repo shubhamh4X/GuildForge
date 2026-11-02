@@ -28,13 +28,17 @@ async function requestJson<T = any>(
       const rawText = await res.text();
       const trimmed = rawText.trim();
 
-      if (trimmed.toLowerCase().startsWith('<!doctype') || trimmed.toLowerCase().startsWith('<html')) {
+      if (
+        trimmed.startsWith('<') ||
+        trimmed.toLowerCase().includes('<!doctype') ||
+        trimmed.toLowerCase().includes('<html')
+      ) {
         if (attempt < maxRetries) {
           await sleep(1200 * (attempt + 1));
           continue;
         }
         throw new Error(
-          'The server took too long to respond or was warming up. Please click Retry.'
+          'Server temporarily unavailable or warming up. Please try again in a moment.'
         );
       }
 

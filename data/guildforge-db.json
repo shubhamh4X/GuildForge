@@ -79,17 +79,31 @@
       "action": "BOT_GATEWAY_ONLINE",
       "user": "GuildForge#0495",
       "details": "Connected to Discord Gateway v10 WebSocket with ONLINE presence (1 guilds)"
+    },
+    {
+      "id": "log_1793649235041_96ym",
+      "timestamp": "2026-11-02T19:53:55.041Z",
+      "action": "BOT_GATEWAY_ONLINE",
+      "user": "GuildForge#0495",
+      "details": "Connected to Discord Gateway v10 WebSocket with ONLINE presence (1 guilds)"
+    },
+    {
+      "id": "log_1793649481617_e8py",
+      "timestamp": "2026-11-02T19:58:01.617Z",
+      "action": "AI_ANALYZE_REQUESTED",
+      "user": "GuildForge#0495",
+      "details": "Analyzing requirements (Custom, 1000 members, high security): \"Professional Valorant esports organization server with 1500 members...\""
     }
   ],
   "guilds": [
     {
       "id": "1565503582516674700",
       "name": "Testing Server",
-      "owner": true,
+      "owner": false,
       "permissions": "8",
       "botPresent": true,
       "botHasAdmin": true,
-      "memberCount": 9
+      "memberCount": 10
     }
   ],
   "settings": {

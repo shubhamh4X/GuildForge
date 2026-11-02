@@ -203,7 +203,7 @@ export const AdminDashboard: React.FC = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           <div className="p-4 rounded-xl bg-[#080808] border border-[#252525] flex items-center justify-between">
             <div>
-              <div className="text-xs font-bold text-white">Google Gemini 3.8 Flash</div>
+              <div className="text-xs font-bold text-white">Gemini 2.5 Flash Engine</div>
               <div className="text-[10px] text-[#9CA3AF]">Schema JSON synthesis</div>
             </div>
             <Badge

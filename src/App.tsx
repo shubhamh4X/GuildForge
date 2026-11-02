@@ -188,7 +188,7 @@ export default function App() {
         <div className="space-y-1.5 max-w-md mx-auto">
           <h2 className="text-lg font-bold text-white">{title} — No Active Blueprint</h2>
           <p className="text-xs text-[#9CA3AF] leading-relaxed">
-            No server architecture blueprint has been generated yet. Use AI Studio to generate a custom blueprint from your requirements or import a JSON snapshot in Backups.
+            No server architecture blueprint has been generated yet. Use Blueprint Studio to generate a custom blueprint from your requirements or import a JSON snapshot in Backups.
           </p>
         </div>
         <div className="pt-2 flex items-center justify-center gap-3">
