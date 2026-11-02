@@ -1,0 +1,6 @@
+{
+  "name": "Discord Server Architect AI",
+  "description": "AI-powered Discord community architect to design, audit, configure and deploy production-grade Discord servers with advanced role hierarchies, permissions, and management infrastructure.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,102 @@
+{
+  "blueprints": {},
+  "deployments": {},
+  "backups": {},
+  "auditLogs": [
+    {
+      "id": "log_1793596944591_q1b4",
+      "timestamp": "2026-11-02T05:22:24.591Z",
+      "action": "BOT_GATEWAY_ONLINE",
+      "user": "GuildForge#0495",
+      "details": "Connected to Discord Gateway v10 WebSocket with ONLINE presence (1 guilds)"
+    },
+    {
+      "id": "log_1793598587522_miiz",
+      "timestamp": "2026-11-02T05:49:47.522Z",
+      "action": "BOT_GATEWAY_ONLINE",
+      "user": "GuildForge#0495",
+      "details": "Connected to Discord Gateway v10 WebSocket with ONLINE presence (1 guilds)"
+    },
+    {
+      "id": "log_1793598780765_ar23",
+      "timestamp": "2026-11-02T05:53:00.765Z",
+      "action": "AI_ANALYZE_REQUESTED",
+      "user": "GuildForge#0495",
+      "details": "Analyzing requirements (Esports Organization, 1500 members, high security): \"Professional Valorant esports organization server with 1500 members...\""
+    },
+    {
+      "id": "log_1793598786858_8dlr",
+      "timestamp": "2026-11-02T05:53:06.858Z",
+      "action": "AI_ANALYZE_FAILED",
+      "user": "GuildForge#0495",
+      "details": "Requirement analysis failed: {\"error\":{\"code\":503,\"message\":\"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",\"status\":\"UNAVAILABLE\"}}"
+    },
+    {
+      "id": "log_1793599134927_hdxl",
+      "timestamp": "2026-11-02T05:58:54.927Z",
+      "action": "BOT_GATEWAY_ONLINE",
+      "user": "GuildForge#0495",
+      "details": "Connected to Discord Gateway v10 WebSocket with ONLINE presence (1 guilds)"
+    },
+    {
+      "id": "log_1793599148293_h2i0",
+      "timestamp": "2026-11-02T05:59:08.293Z",
+      "action": "AI_ANALYZE_REQUESTED",
+      "user": "GuildForge#0495",
+      "details": "Analyzing requirements (Esports Organization, 1500 members, high security): \"Professional Valorant esports organization server with 1500 expected m...\""
+    },
+    {
+      "id": "log_1793599151535_am4j",
+      "timestamp": "2026-11-02T05:59:11.535Z",
+      "action": "AI_GENERATE_REQUESTED",
+      "user": "GuildForge#0495",
+      "details": "Generating architecture (Esports Organization, 1500 members, high security): \"Professional Valorant esports organization server with 1500 expected m...\""
+    },
+    {
+      "id": "log_1793599159403_6yya",
+      "timestamp": "2026-11-02T05:59:19.404Z",
+      "action": "BLUEPRINT_SAVED",
+      "user": "GuildForge",
+      "details": "Saved blueprint \"Valorant Esports Professional Operations Hub\" v2 (8 roles, 16 channels)"
+    },
+    {
+      "id": "log_1793599159691_tl90",
+      "timestamp": "2026-11-02T05:59:19.691Z",
+      "action": "BLUEPRINT_DELETED",
+      "user": "GuildForge",
+      "details": "Deleted blueprint id: bp_1793599159402_3h0ly"
+    },
+    {
+      "id": "log_1793599237516_xqxa",
+      "timestamp": "2026-11-02T06:00:37.516Z",
+      "action": "BOT_GATEWAY_ONLINE",
+      "user": "GuildForge#0495",
+      "details": "Connected to Discord Gateway v10 WebSocket with ONLINE presence (1 guilds)"
+    },
+    {
+      "id": "log_1793599435905_g9tt",
+      "timestamp": "2026-11-02T06:03:55.905Z",
+      "action": "BOT_GATEWAY_ONLINE",
+      "user": "GuildForge#0495",
+      "details": "Connected to Discord Gateway v10 WebSocket with ONLINE presence (1 guilds)"
+    }
+  ],
+  "guilds": [
+    {
+      "id": "1565503582516674700",
+      "name": "Testing Server",
+      "owner": true,
+      "permissions": "8",
+      "botPresent": true,
+      "botHasAdmin": true,
+      "memberCount": 9
+    }
+  ],
+  "settings": {
+    "discordClientId": "1566668807680958516",
+    "activeBlueprintId": "",
+    "aiGenerationsCount": 1,
+    "aiAnalysesCount": 1,
+    "selectedGuildId": "1565503582516674700"
+  }
+}
